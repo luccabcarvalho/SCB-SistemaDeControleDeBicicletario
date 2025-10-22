@@ -1,7 +1,7 @@
-package com.example.aluguelms.service;
+package com.example.aluguel-ms.service;
 
-import com.example.aluguelms.model.Funcionario;
-import com.example.aluguelms.repository.FuncionarioRepository;
+import com.example.aluguel-ms.model.Funcionario;
+import com.example.aluguel-ms.repository.FuncionarioRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
