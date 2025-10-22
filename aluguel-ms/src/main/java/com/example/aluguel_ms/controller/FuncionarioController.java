@@ -16,6 +16,11 @@ public class FuncionarioController {
     @Autowired
     private FuncionarioService service;
 
+    @GetMapping("/hello")
+    public ResponseEntity<String> helloWorld() {
+        return ResponseEntity.ok("Hello World!");
+    }
+    
     @PostMapping
     public ResponseEntity<Funcionario> criarFuncionario(@RequestBody Funcionario funcionario) {
         Funcionario criado = service.criarFuncionario(funcionario);
