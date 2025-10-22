@@ -7,4 +7,4 @@ O sistema permite o **empréstimo e devolução de bicicletas em totens espalhad
 
 ## Contexto Acadêmico
 
-Este sistema está sendo desenvolvido como parte da disciplina **Engenharia de Software II** do curso de **Sistemas de Informação da UNIRIO**, no período **2025.2**.  
+Este sistema está sendo desenvolvido como parte da disciplina **Engenharia de Software II** do curso de **Sistemas de Informação na UNIRIO**, no período **2025.2**.  
