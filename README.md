@@ -8,3 +8,12 @@ O sistema permite o **empréstimo e devolução de bicicletas em totens espalhad
 ## Contexto Acadêmico
 
 Este sistema está sendo desenvolvido como parte da disciplina **Engenharia de Software II** do curso de **Sistemas de Informação da UNIRIO**, no período **2025.2**.  
+
+## Ambiente de reprodução: https://scb-sistemadecontroledebicicletario.onrender.com
+
+##Como testar rapidamente??
+
+Navegador
+
+Listagem: abra https://scb-sistemadecontroledebicicletario.onrender.com/funcionario -> (Deve retornar [] se não houver registros.)
+Hello World: abra https://scb-sistemadecontroledebicicletario.onrender.com/funcionario/test 
