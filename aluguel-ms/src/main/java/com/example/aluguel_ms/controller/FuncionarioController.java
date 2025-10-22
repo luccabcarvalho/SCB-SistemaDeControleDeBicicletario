@@ -19,7 +19,7 @@ public class FuncionarioController {
 
     @GetMapping("/test")
     public String test() {
-    return "SISTEMA FUNCIONANDO - " + new Date();
+    return "Hello World - " + new Date();
     }
     
     @PostMapping
