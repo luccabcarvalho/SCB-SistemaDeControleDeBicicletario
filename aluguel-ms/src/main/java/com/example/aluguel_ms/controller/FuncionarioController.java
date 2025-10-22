@@ -16,9 +16,9 @@ public class FuncionarioController {
     @Autowired
     private FuncionarioService service;
 
-    @GetMapping("/hello")
-    public ResponseEntity<String> helloWorld() {
-        return ResponseEntity.ok("Hello World!");
+    @GetMapping("/test")
+    public String test() {
+    return "SISTEMA FUNCIONANDO - " + new Date();
     }
     
     @PostMapping
