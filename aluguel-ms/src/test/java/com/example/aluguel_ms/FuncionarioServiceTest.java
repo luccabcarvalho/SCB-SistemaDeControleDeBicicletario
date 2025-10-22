@@ -1,4 +1,4 @@
-package com.example.aluguel-ms.service;
+package com.example.aluguel-ms;
 
 import com.example.aluguel-ms.model.Funcionario;
 import com.example.aluguel-ms.repository.FuncionarioRepository;
