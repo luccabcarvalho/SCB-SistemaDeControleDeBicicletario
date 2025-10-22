@@ -1,7 +1,7 @@
-package com.example.aluguel-ms.service;
+package com.example.aluguel_ms.service;
 
-import com.example.aluguel-ms.model.Funcionario;
-import com.example.aluguel-ms.repository.FuncionarioRepository;
+import com.example.aluguel_ms.model.Funcionario;
+import com.example.aluguel_ms.repository.FuncionarioRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-class FuncionarioServiceTest {
+public class FuncionarioServiceTest {
 
     @Mock
     private FuncionarioRepository repository;
@@ -41,15 +41,11 @@ class FuncionarioServiceTest {
 
     @Test
     void testListarTodos() {
-        Funcionario func1 = new Funcionario();
-        func1.setNome("Edson");
-        
-        Funcionario func2 = new Funcionario();
-        func2.setNome("Pedro");
+        Funcionario func1 = new Funcionario(); func1.setNome("Edson");
+        Funcionario func2 = new Funcionario(); func2.setNome("Pedro");
 
-        List<Funcionario> lista = Arrays.asList(func1, func2);
-        when(repository.findAll()).thenReturn(lista);
-		
+        when(repository.findAll()).thenReturn(Arrays.asList(func1, func2));
+
         List<Funcionario> resultado = service.listarTodos();
 
         assertEquals(2, resultado.size());
@@ -58,7 +54,6 @@ class FuncionarioServiceTest {
 
     @Test
     void testBuscarPorMatricula_Encontrado() {
-		
         Funcionario funcionario = new Funcionario();
         funcionario.setMatricula("445");
         funcionario.setNome("Lucca");
