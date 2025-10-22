@@ -11,7 +11,7 @@ Este sistema está sendo desenvolvido como parte da disciplina **Engenharia de S
 
 ## Como testar rapidamente??
 
-Navegador
+No navegador use: 
 
 Listagem: abra https://scb-sistemadecontroledebicicletario.onrender.com/funcionario -> (Deve retornar [] se não houver registros.)
 
